@@ -40,7 +40,22 @@ Backend API for Nodemailer-express project.
 
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+**To get a local copy up and running follow these simple steps.**
+
+- Install all dependencies using NPM
+
+  > npm install
+
+- Run Docker
+
+  > docker-compose -f docker-compose_DEV.yml up -d
+
+- Run project using NPM
+
+  > npm run dev
+
+- Terminate Docker
+  > docker-compose -f docker-compose_DEV.yml down -v
 
 ### Prerequisites
 
